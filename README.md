@@ -9,7 +9,6 @@ weservcies:
 	/api//delete/{id} - DELETE 
 	/api/exit - GET 
 	
-	
 Example also includes LoggingHandler which will Log Each and every Service call in a proper fashion.
 
 
