@@ -10,14 +10,10 @@ weservcies:
 	/api/exit - GET 
 	
 Example also includes LoggingHandler which will Log Each and every Service call in a proper fashion.
-
-
 How to Start:
- 1:Using Docker Image
-	
+ 1:Using Docker Image	
 		docker run -d -p 9090:9090 vikramdonekal/go-restfull 
-		
-		Test with:  http://machineIp:9090/api/exit
+	Test with:  http://machineIp:9090/api/exit
 	
  2:Using Helm Chart inside K8
 	Download the helm chart from my github		
@@ -26,8 +22,4 @@ How to Start:
 	Verify Installion:
 		kubectl get pods 
 		kubectl get services
-Get Port of the service mapping and verify with : http://machineIp:servicePort:/api/exit 
-		
-		
-		
-		
+Get Port of the service mapping and verify with : http://machineIp:servicePort:/api/exit
