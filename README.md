@@ -22,4 +22,5 @@ How to Start:
 	Verify Installion:
 		kubectl get pods 
 		kubectl get services
+                
 Get Port of the service mapping and verify with : http://machineIp:servicePort:/api/exit
